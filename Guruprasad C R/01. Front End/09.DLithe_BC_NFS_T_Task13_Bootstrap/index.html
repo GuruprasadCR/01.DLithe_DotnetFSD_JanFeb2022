@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dlithe Bank website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript">
+
+      
+      $(document).ready(function () 
+      
+      {
+          $('#sidebarCollapse').on('click', function () 
+          
+          {
+              $('#sidebar').toggleClass('active');
+          
+          });
+
+      });
+  </script>
+    
+    
+</head>
+
+<style>
+    div.gp {
+
+        
+  width: 100px;
+
+  height: 100px;
+  background: rgb(72, 6, 226);
+  transition: width 2s;
+}
+
+div.gp:hover {
+  width: 1000px;
+}
+
+</style>
+
+<body>
+    <div class="wrapper">
+
+
+
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+
+                <img src="Dlithe-logo2-1.png" alt="Trulli" width="60" height="35">
+                <h3>Dlithe Bank</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>Person Name</p>
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Account</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Savings Account</a>
+                        </li>
+                        <li>
+                            <a href="#">Cuurent Account</a>
+                        </li>
+                        <li>
+                            <a href="#">Fixed Deposite</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Loan</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Personal Loan</a>
+                        </li>
+                        <li>
+                            <a href="#">Home Loan</a>
+                        </li>
+                        <li>
+                            <a href="#">Gold Loan</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Career</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+
+                <li>
+                    <a href="#"><button type="button" class="btn btn-success">Login</button></a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <p style="background-color: black;" id="amani">Adress</p>
+                </li>
+                <li >
+                    <a  href="https://www.google.com/maps/place/DLithe+Consultancy+Services+Pvt+Ltd/@12.9250945,77.5499481,15z/data=!4m5!3m4!1s0x0:0x4662827b839e02e8!8m2!3d12.9250945!4d77.5499481" class="article">SLV Arcade, Dr Vishnuvardhan Rd, Phase 3, Banashankari, Bengaluru, Karnataka 560085</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <span>Hide Sidebar</span>
+                    </button>
+          
+
+                    <div >
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="#link" href="">Home </span> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="#link" href="">Invest</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="#link" href="">Insure</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="#link" href="">Payment</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="#link" href="">Digital Banking</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            
+            <div class="container-fluid">
+              <div class="container-fluid">
+                <h2>We are</h2>  
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">  
+                  <!-- Indicators -->  
+                  <ol class="carousel-indicators">  
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>  
+                    <li data-target="#myCarousel" data-slide-to="1"></li>  
+                    <li data-target="#myCarousel" data-slide-to="2"></li>  
+                  </ol>  
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="Bank.jpg" alt="bank image" style="width:100%; height:500px;">
+                    </div>
+              
+                    <div class="item">
+                      <img src="mobile.jpg" alt="bank image" style="width:100%; height: 500px;">
+                    </div>
+                  
+                    <div class="item">
+                      <img src="mobile 2.jpg" alt="Bank image" style="width:100%;height: 500px;;">
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+     <!-- Left and right controls -->  
+     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">  
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>  
+      <span class="sr-only">Previous</span> <!--screen readers--> 
+    </a>  
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> 
+      <!--
+As per the bootstrap document, adding aria-hidden="true" tells assistive technologies to skip the modal's DOM elements, 
+which explains the presence of aria-hidden=true in the main modal div .--> 
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>  
+      <span class="sr-only">Next</span>  
+    </a> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+    </div>
+    <hr>
+
+                  <div class="line"></div></div>
+
+
+                  <div class="line"></div>
+              
+               
+
+
+
+
+
+
+
+
+            <div class="container p-3 my-3 bg-light text-blue">
+            <div class="container p-3 my-3 bg-info text-white">
+                <h1>Announcement: <span class="glyphicon glyphicon-volume-up"></span></h1>
+                
+              </div>
+              <ul>
+                  <li>Notice</li>
+                  <li>Notice</li>
+                  <li>Notice</li>
+                  <li>Notice</li>
+                  <li>Notice</li>
+
+
+            
+
+              </ul></div></div>
+
+
+              <!--Table-->
+
+
+              <div class="container">
+                <h2>Customer name</h2>
+                <p>Customer details</p>            
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Firstname</th>
+                      <th>Lastname</th>
+                      <th>Email</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>John</td>
+                      <td>Doe</td>
+                      <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                      <td>Mary</td>
+                      <td>Moe</td>
+                      <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                      <td>July</td>
+                      <td>Dooley</td>
+                      <td>july@example.com</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+
+            </body>
+
+<div class="line"></div>
+
+
+<!--Login Form-->
+
+
+<div class="container">
+    <h2>Login form</h2>
+    <form action="/action_page.php">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" name="remember"> Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+  </div>
+
+            
+            <div class="line"></div>
+
+            <div class="container">
+                <h2>Responsive video</h2>
+                <p></p>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yzMoVPw9oQo"></iframe>
+                </div>
+              </div>
+
+    
+
+            
+            <div class="line"></div>
+
+
+
+
+            <h1>The transition Property</h1>
+
+            
+         <div class="gp">
+            
+
+
+         </div>
+
+         
+                
+            </body>
+
+
+</html>
