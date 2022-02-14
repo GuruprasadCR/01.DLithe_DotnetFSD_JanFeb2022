@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+<script type="text/javascript">
+    function registration() {
+
+
+        var email = document.getElementById("E").value;
+        var uname = document.getElementById("N").value;
+        var pwd = document.getElementById("pa").value;
+        var cpwd = document.getElementById("CP").value;
+
+        //email id expression code
+        var pwd_expression = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])/;
+        var letters = /^[A-Za-z]+$/;
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        var mail=/^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/;
+
+        if (uname == '') {
+            alert('Please enter the user name.');
+        }
+        else if (!letters.test(uname)) {
+            alert('User name field required only alphabet characters');
+        }
+        else if (email == '') {
+            alert('Please enter your user email id');
+        }
+        else if (!mail.test(email))
+        {
+            alert('Invalid email');
+        }
+        else if (pwd == '') {
+            alert('Please enter Password');
+        }
+        else if (cpwd == '') {
+            alert('Enter Confirm Password');
+        }
+        else if (!pwd_expression.test(pwd)) {
+            alert('Upper case, Lower case, Special character and Numeric letter are required in Password filed');
+        }
+        else if (pwd != cpwd) {
+            alert('Password not Matched');
+        }
+        else if (document.getElementById("CP").value.length < 6) {
+            alert('Password minimum length is 6');
+        }
+        else if (document.getElementById("CP").value.length > 12) {
+            alert('Password max length is 12');
+        }
+        else {
+            alert('Thank You for Registration & You are Redirecting to Website');
+
+        }
+    }
+</script>
+
+<body >
+
+    <div class="container">
+        <h1>Sign in</h1>
+
+        <label>User Name</label>
+        <input type="text" class="form-control" placeholder="Username" name="name" id="N">
+        <label>Email</label><br>
+        <input type="email" class="form-control" placeholder="Example@gmail.com" id="E">
+        <label>Pass word</label>
+        <input type="password" class="form-control" name="password" id="pa">
+        <label>Confirm Password</label>
+        <input type="password" class="form-control" name="cpas" id="CP">
+
+        <label>country</label><br>
+        <select>
+            <option>India</option>
+            <option>Japan</option>
+            <option>Srilanka</option>
+            <option>England</option>
+
+        </select>
+
+        <p><input type="checkbox"> I agree to the <a href="file:///C:/Users/Guruprasad/Desktop/basic%20html/Table.html"
+                target="_blank">Terms and
+                condition</a>
+        </p>
+
+        <button type="submit" class="btn btn-primary" onclick="registration()">Submit</button>
+        <button type="reset" class="btn btn-warning" value="Reset form">Reset</button>
+
+    </div>
+
+</body>
+
+</html>
