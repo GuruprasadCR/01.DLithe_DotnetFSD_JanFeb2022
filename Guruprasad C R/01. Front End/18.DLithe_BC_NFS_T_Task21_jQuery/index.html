@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Document</title>
+
+    <!--Slide-->
+
+    <script>
+        $(document).ready(function () {
+            $("#flip").click(function () {
+                $("#panel").slideDown("slow");
+            });
+        });
+    </script>
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $(".btn1").click(function () {
+                $("div").hide();
+            });
+            $(".btn2").click(function () {
+                $("div").show();
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(".butn10").click(function () {
+
+                $('#myDiv').animate({
+
+
+                    height: '500px',
+                    width: '250px'
+                },
+                    {    // options parameter 
+                        duration: 5000,
+                        complete: function () {
+                            $(this).animate({
+                                height: '500px',
+                                width: '1200px'
+                            }, 5000,
+                                function () {
+                                    $('#msgDiv').text('Animation completed..');
+                                });
+                        },
+                        start: function () {
+                            $('#msgDiv').append('starting animation..');
+                        }
+                    });
+            });
+
+        });
+    </script>
+
+
+    <style>
+        #panel,
+        #flip {
+            padding: 5px;
+            text-align: center;
+            background-color: #99c915;
+            border: solid 1px #000000;
+        }
+
+        #panel {
+            padding: 50px;
+            display: none;
+        }
+
+        .redDiv {
+
+            height: 500px;
+            width: 1200px;
+        }
+    </style>
+
+</head>
+
+<body style="background-color:rgb(129, 150, 153);">
+
+    <div id="flip"><h1>Slide down</h1></div>
+    <div id="panel">WELCOME</div>
+
+    <hr>
+    
+    <h1 style="color: darkred;background-color: burlywood; text-align: center;">JQuerry</h1>
+    <h1>Hide/Show</h1>
+
+    <div class="container-fluid">
+        <img src="volvo.jpg" alt="Italian Trulli">
+    </div>
+    <button class="btn1 btn btn-primary">Hide</button>
+    <button class="btn2 btn btn-success">show</button>
+
+    <hr>
+
+  
+
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("p").toggle();
+            });
+        });
+    </script>
+
+    <h1>Details</h1>
+
+
+    <p class="container">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+    </p>
+
+    <button class="button btn btn-success">Hide/Show</button>
+
+    <hr>
+
+    <div class="container">
+
+
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#div1").fadeToggle();
+                $("#div2").fadeToggle("slow");
+                $("#div3").fadeToggle(1500);
+            });
+        });
+
+
+    </script>
+
+    <button class="button btn btn-danger">Fade</button><br><br>
+
+    <div id="div1">
+
+        <img src="H1.jpg" alt="Italian Trulli" height="300px" width="500px">
+
+    </div>
+    <br>
+    <div id="div2">
+        <img src="H2.jpg" alt="Italian Trulli" height="300px" width="500px">
+    </div>
+    <br>
+    <div id="div3">
+        <img src="H3.jpg" alt="Italian Trulli" height="300px" width="500px">
+
+    </div>
+</div>
+    <hr>
+    <h1>Click below button</h1>
+    <div class="container">
+
+    
+
+    <button class="butn10 btn btn-success">Animate</button>
+
+	<div id="msgDiv"></div>
+
+	<div id="myDiv" class="redDiv">
+        <img src="H4.jpg" alt="Italian Trulli" height="500px" width="1000px">
+    </div>
+    <hr>
+
+    <h1>Chaining</h1>
+
+
+    <script>
+        $(document).ready(function(){
+          $(".butn20").click(function(){
+            $("#p20").css("color", "green")
+              .slideUp(2000)
+              .slideDown(2000);
+          });
+        });
+        </script>
+
+
+   
+    <p id="p20">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.</p>
+
+<button class="butn20 btn btn-primary" >Click me</button>
+
+
+</body>
+
+</html>
