@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aqua;">
+    <h1 style="text-align: center;">Array Methods</h1>
+    <hr>
+
+    <h1>Splice method</h1>
+
+
+
+    <script>
+
+    const A=['Red','Blue','Green','Yellow'];
+
+          document.write(A);
+
+          document.writeln("<br/>"); 
+          
+
+          A.splice(1, 0, 'Black');
+
+
+          document.write(A);
+
+</script>
+
+<h1>Concat</h1>
+<script>
+
+const B=['Red','Blue','Green','Yellow'];
+document.write(B);
+document.writeln("<br/>");
+
+const C=['Grey','White','Orange','Purple'];
+document.write(C);
+document.writeln("<br/>");
+
+const D= B.concat(C)
+document.write(D);
+
+
+</script>
+<hr>
+<h1>Entries</h1>
+<script>
+
+    var E=['Red','Blue','Green','Yellow']
+    document.write(E);
+
+    var iterator = E.entries();
+
+
+    for (let f of iterator)
+ {
+  document.write(f+"<br>");
+}
+
+</script>
+<hr>
+
+<h1>Reverse method</h1>
+<script>
+
+                var J = [7, 8, 9,1,11];
+
+document.write(J); // [1, 2, 3]
+
+J.reverse();
+document.writeln("<br/>"); 
+
+document.write(J); // [3, 2, 1]
+
+</script>
+
+<hr>
+
+
+<h1 style="text-align: center;">Date Function</h1>
+
+<script>  
+    var today=new Date();  
+    document.getElementById('txt').innerHTML=today;
+      
+    </script>  
+
+
+<script>  
+    var date=new Date();  
+    var day=date.getDate();  
+    var month=date.getMonth()+1;  
+    var year=date.getFullYear();  
+    document.write("<br>Date is: "+day+"/"+month+"/"+year);  
+    </script>  
+    <hr>
+
+    Current Time: <span id="txt1"></span>  
+<script>  
+var today=new Date();  
+var h=today.getHours();  
+var m=today.getMinutes();  
+var s=today.getSeconds();  
+document.getElementById('txt1').innerHTML=h+":"+m+":"+s;  
+</script>  
+<hr>
+      
+
+
+
+<h1 style="text-align: center;">Math Function</h1>
+
+<p id="demo"></p>
+
+<script>
+    
+   //"use strict"; 
+   a=10;
+document.getElementById("demo").innerHTML = 
+"<p><b>Math.E:</b> " + Math.E + "</p>" +
+"<p><b>Math.PI:</b> " + Math.PI + "</p>" +
+"<p><b>Math.SQRT2:</b> " + Math.SQRT2 + "</p>" +
+"<p><b>Math.SQRT1_2:</b> " + Math.SQRT1_2 + "</p>" +
+"<p><b>Math.LN2:</b> " + Math.LN2 + "</p>" +
+"<p><b>Math.LN10:</b> " + Math.LN10 + "</p>" +
+"<p><b>Math.LOG2E:</b> " + Math.LOG2E + "</p>" +
+"<p><b>Math.Log10E:</b> " + Math.LOG10E + "</p>";
+</script>
+<hr>
+<script>
+    document.write("Math functions"+ "<br>");
+document.write(Math.round(2.1)+"<br>");
+document.write(Math.round(-4.1)+"<br>");
+document.write(Math.ceil(4.7)+"<br>");
+document.write(Math.ceil(4.2)+"<br>");
+document.write(Math.floor(4.7)+"<br>");
+document.write(Math.trunc(4.7)+"<br>");
+document.write(Math.sign(0)+"<br>");
+document.write(Math.sign(-4.7)+"<br>");
+document.write(Math.pow(4,2)+"<br>");
+document.write(Math.sqrt(81)+"<br>");
+document.write(Math.abs(-1)+"<br>");
+document.write(Math.sin(1)+"<br>");
+document.write(Math.cos(1)+"<br>");
+document.write(Math.tan(1)+"<br>");
+document.write(Math.min(0, 150, 30, 20, -8, -200)+"<br>");
+document.write(Math.max(0, 150, 30, 20, -8, -200)+"<br>");
+document.write(Math.random()+"<br>");   
+document.write(Math.log(1)+"<br>");  
+//Math.floor(Math.random() * 10) returns a random integer between 0 and 9 (both included):
+document.write(Math.floor(Math.random() * 1000)+"<br>");
+ //0 to 99 (*100) 0 to 100 (*101) 0 to 10 (*11) 
+    
+    </script>
+    <hr>
+
+    <h1 style="text-align: center;">String Methods</h1>
+
+    <script>  
+        var str="bandipura";  
+        document.write(str+"<br>"); 
+
+        document.write("String at 7" + "<br>")
+
+        document.write(str.charAt(7));  
+        </script>
+
+        <hr>
+
+        <h1>String concat</h1>
+        <script>  
+    
+            var s1="Hello "; 
+            document.write(s1 + "<br>")
+
+            var s2="World"; 
+            document.write(s2 + "<br>")
+
+
+            var s3=s1.concat(s2);  
+            document.write(s3);  
+            </script> 
+
+<hr>
+<h1>Upper Case</h1>
+
+<script>
+    let text = "Hello World!";
+    document.write(text+ "<br>");  
+
+    let result = text.toUpperCase();
+    
+   
+    </script>
+
+<hr>
+
+<h1 style="text-align: center;">Exceptionhandling</h1>
+
+<script>
+
+
+  
+
+        var a=50;
+        try{
+
+           var G= a.toUpperCase();
+
+           document.write(G);
+    
+
+        }
+        catch(e)
+        {
+
+            document.write("Error" + "<br>");
+            document.write(e+ "<br>");
+            document.write(e.message+"<br>");
+            document.write(e.name+"<br>");
+            document.write(e.stack+"<br>");
+
+        }
+        finally
+        {
+
+            document.write("This block always executed");
+           
+            
+        }
+
+
+
+    
+
+
+
+
+</script>
+
+
+
+<hr>
+
+<h1 style="text-align: center;">Age Diffrence</h1>
+
+<script>
+  
+    
+    var DT1 = new Date("06/30/20");
+var DT2 = new Date();
+  
+
+var DT = DT2.getTime() - DT1.getTime();
+  
+
+var DD = DT / (1000 * 3600 * 24);
+
+var DA= DD/365
+  
+
+document.write("Your Born on  <br>"
+               + DT1 + "<br> Today date <br>" 
+               + DT2 + " is: <br> " + "Your age:"
+               +(Math.round(DA)+ "years"));
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
