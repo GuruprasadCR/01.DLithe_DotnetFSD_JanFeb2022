@@ -1,0 +1,15 @@
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\debugg\obj\Debug\net6.0\debugg.csproj.AssemblyReference.cache
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\debugg\obj\Debug\net6.0\debugg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\debugg\obj\Debug\net6.0\debugg.AssemblyInfoInputs.cache
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\debugg\obj\Debug\net6.0\debugg.AssemblyInfo.cs
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\debugg\obj\Debug\net6.0\debugg.csproj.CoreCompileInputs.cache
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\debugg\bin\Debug\net6.0\debugg.exe
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\debugg\bin\Debug\net6.0\debugg.deps.json
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\debugg\bin\Debug\net6.0\debugg.runtimeconfig.json
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\debugg\bin\Debug\net6.0\debugg.dll
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\debugg\bin\Debug\net6.0\ref\debugg.dll
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\debugg\bin\Debug\net6.0\debugg.pdb
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\debugg\obj\Debug\net6.0\debugg.dll
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\debugg\obj\Debug\net6.0\ref\debugg.dll
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\debugg\obj\Debug\net6.0\debugg.pdb
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\debugg\obj\Debug\net6.0\debugg.genruntimeconfig.cache
