@@ -1,0 +1,15 @@
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Debugging 3\bin\Debug\net6.0\Debugging 3.exe
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Debugging 3\bin\Debug\net6.0\Debugging 3.deps.json
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Debugging 3\bin\Debug\net6.0\Debugging 3.runtimeconfig.json
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Debugging 3\bin\Debug\net6.0\Debugging 3.dll
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Debugging 3\bin\Debug\net6.0\ref\Debugging 3.dll
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Debugging 3\bin\Debug\net6.0\Debugging 3.pdb
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Debugging 3\obj\Debug\net6.0\Debugging 3.csproj.AssemblyReference.cache
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Debugging 3\obj\Debug\net6.0\Debugging 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Debugging 3\obj\Debug\net6.0\Debugging 3.AssemblyInfoInputs.cache
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Debugging 3\obj\Debug\net6.0\Debugging 3.AssemblyInfo.cs
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Debugging 3\obj\Debug\net6.0\Debugging 3.csproj.CoreCompileInputs.cache
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Debugging 3\obj\Debug\net6.0\Debugging 3.dll
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Debugging 3\obj\Debug\net6.0\ref\Debugging 3.dll
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Debugging 3\obj\Debug\net6.0\Debugging 3.pdb
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Debugging 3\obj\Debug\net6.0\Debugging 3.genruntimeconfig.cache
