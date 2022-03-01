@@ -1,0 +1,15 @@
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Array new\bin\Debug\net6.0\Array new.exe
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Array new\bin\Debug\net6.0\Array new.deps.json
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Array new\bin\Debug\net6.0\Array new.runtimeconfig.json
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Array new\bin\Debug\net6.0\Array new.dll
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Array new\bin\Debug\net6.0\ref\Array new.dll
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Array new\bin\Debug\net6.0\Array new.pdb
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Array new\obj\Debug\net6.0\Array new.csproj.AssemblyReference.cache
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Array new\obj\Debug\net6.0\Array new.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Array new\obj\Debug\net6.0\Array new.AssemblyInfoInputs.cache
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Array new\obj\Debug\net6.0\Array new.AssemblyInfo.cs
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Array new\obj\Debug\net6.0\Array new.csproj.CoreCompileInputs.cache
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Array new\obj\Debug\net6.0\Array new.dll
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Array new\obj\Debug\net6.0\ref\Array new.dll
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Array new\obj\Debug\net6.0\Array new.pdb
+C:\Users\Guruprasad\Desktop\Guruprasad C R\03.C#\Array new\obj\Debug\net6.0\Array new.genruntimeconfig.cache
